@@ -23,7 +23,7 @@ body {
     line-height: 1;
 }
 
-/* Barra de pesquisa */
+
 .custom-search-container input {
     background-color: #252A3A !important; 
     color: #fff !important;
@@ -390,3 +390,4 @@ footer {
     color: #E0E0E0 !important;
 
 }
+
