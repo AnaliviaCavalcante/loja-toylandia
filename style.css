@@ -75,7 +75,7 @@ body {
 .custom-facebook-icon i { color: #1877F2; }
 .custom-cart-icon i { color: #fff; } 
 
-#mobileMenu 
+#mobileMenu {
     background-color: #131C2E !important; 
 }
 
@@ -270,7 +270,6 @@ body {
     border-color: #00BFFF !important; 
 }
 
-/
 .accordion-button { 
     background-color: #252A3A !important;
     color: #00BFFF !important; 
@@ -296,8 +295,6 @@ body {
     filter: invert(100%) brightness(150%) sepia(1) hue-rotate(180deg) saturate(3);
 }
 
-
-
 .accordion-body {
     background-color: #252A3A; 
     color: #E0E0E0;
@@ -314,7 +311,7 @@ body {
     border-radius: 8px;
     margin-bottom: 15px;
     overflow: hidden;
-
+}
 
 .offcanvas-header.bg-primary {
     background-color: #131C2E !important; 
@@ -388,6 +385,4 @@ body {
 footer {
     background-color: #131C2E !important;
     color: #E0E0E0 !important;
-
 }
-
