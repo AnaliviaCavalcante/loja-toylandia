@@ -6,7 +6,7 @@ body {
     background-image: url('img/escuro.png');
 }
 
-/* Header principal */
+
 .custom-header-bg {
     background-color: #131C2E !important; 
     padding: 0;
@@ -14,7 +14,7 @@ body {
 
 .custom-logo-text {
     font-size: 2.5rem; 
-    font-family: Arial, sans-serif; /* Corrigido: Removido "rgb(0, 0, 0)" */
+    font-family: Arial, sans-serif;
     letter-spacing: -2px;
     text-shadow: 
         -1px -1px 0 #252A3A, 
@@ -48,7 +48,7 @@ body {
     color: rgba(255, 255, 255, 0.6) !important;
 }
 
-/* Ícones de redes sociais e carrinho */
+
 .custom-icon-circle {
     width: 45px;
     height: 45px;
@@ -75,9 +75,8 @@ body {
 .custom-facebook-icon i { color: #1877F2; }
 .custom-cart-icon i { color: #fff; } 
 
-/* Barra de categorias (ofertas, blocos, etc.) */
-#mobileMenu { /* O ID da div que contém as categorias */
-    background-color: #131C2E !important; /* Mesma cor do header principal */
+#mobileMenu 
+    background-color: #131C2E !important; 
 }
 
 .custom-topics-container a {
@@ -90,27 +89,27 @@ body {
     font-weight: bold;
     transition: all 0.2s;
     background-color: transparent; 
-    color: #00BFFF; /* Cor do texto das categorias em azul claro */
-    border: 1px solid #00BFFF; /* Borda em azul claro */
-    margin: 0 5px; /* Adicionado margem para espaçamento entre os botões */
+    color: #00BFFF; 
+    border: 1px solid #00BFFF;
+    margin: 0 5px; 
 }
 .custom-topics-container a:hover {
-    background-color: rgba(0, 191, 255, 0.2); /* Fundo sutil azul no hover */
-    color: #fff; /* Texto branco no hover */
-    border-color: #fff; /* Borda branca no hover */
+    background-color: rgba(0, 191, 255, 0.2); 
+    color: #fff; 
+    border-color: #fff; 
 }
 
-/* Destaque para o botão de "Ofertas" na barra de categorias */
+
 .custom-ofertas-pill {
-    background-color: #dc3545 !important; /* Vermelho vibrante */
-    color: #fff !important; /* Texto branco */
-    border-color: #dc3545 !important; /* Borda vermelha */
-    font-weight: bolder !important; /* Para ficar ainda mais em evidência */
-    animation: pulse-red 2s infinite; /* Animação para o botão de ofertas */
+    background-color: #dc3545 !important; 
+    color: #fff !important; 
+    border-color: #dc3545 !important;
+    font-weight: bolder !important; 
+    animation: pulse-red 2s infinite;
 }
 
 .custom-ofertas-pill:hover {
-    background-color: #c82333 !important; /* Vermelho um pouco mais escuro no hover */
+    background-color: #c82333 !important; 
     border-color: #c82333 !important;
     color: #fff !important;
 }
@@ -157,45 +156,45 @@ body {
     scrollbar-width: none;
 }
 
-/* Carrossel de Hero (alterado para tons mais escuros com azul e roxo) */
+
 .carousel-slide-1 {
-    background: linear-gradient(90deg, #131C2E, #252A3A); /* Tons de azul/cinza mais escuros */
+    background: linear-gradient(90deg, #131C2E, #252A3A); 
 }
 .carousel-slide-2 {
-    background: linear-gradient(90deg, #131C2E, #31124b); /* Tons de azul/roxo mais escuros */
+    background: linear-gradient(90deg, #131C2E, #31124b);
 }
 
 .shadow-text {
     text-shadow: 2px 2px 4px rgb(31, 51, 224);
-    color: #fff; /* Garante que o texto seja branco para melhor contraste */
+    color: #fff; 
 }
 
-/* Botões do carrossel - "Ver Ofertas" e "Aproveite!" */
+
 .btn-carousel-1 {
-    background-color: #00BFFF !important; /* Azul elétrico para o botão 1 */
+    background-color: #00BFFF !important;
     border-color: #00BFFF !important;
-    color: #131C2E !important; /* Texto escuro no botão */
+    color: #131C2E !important; 
     font-weight: bold;
     transition: all 0.3s ease;
 }
 
 .btn-carousel-1:hover {
-    background-color: #00a0e0 !important; /* Azul ligeiramente mais escuro no hover */
+    background-color: #00a0e0 !important; 
     border-color: #00a0e0 !important;
     transform: translateY(-2px);
     box-shadow: 0 4px 8px rgba(0, 191, 255, 0.4);
 }
 
 .btn-carousel-2 {
-    background-color: #9333ea !important; /* Roxo vibrante para o botão 2 */
+    background-color: #9333ea !important; 
     border-color: #9333ea !important;
-    color: #fff !important; /* Texto branco */
+    color: #fff !important; 
     font-weight: bold;
     transition: all 0.3s ease;
 }
 
 .btn-carousel-2:hover {
-    background-color: #8120d5 !important; /* Roxo ligeiramente mais escuro no hover */
+    background-color: #8120d5 !important; 
     border-color: #8120d5 !important;
     transform: translateY(-2px);
     box-shadow: 0 4px 8px rgba(147, 51, 234, 0.4);
@@ -208,27 +207,27 @@ body {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
     border: 3px solid transparent; 
     background-color: #252A3A;
-    color: #E0E0E0; /* Cor do texto padrão para os cards */
+    color: #E0E0E0; 
 }
 
 .custom-card:hover {
     transform: translateY(-8px); 
-    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.5); /* Sombra mais escura no hover */
-    border-color: #00BFFF; /* Borda azul claro no hover */
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.5); 
+    border-color: #00BFFF; 
 }
 
-/* Títulos dos produtos nos cards */
+
 .custom-card .card-title {
-    color: #fff; /* Título do produto branco */
+    color: #fff; 
 }
 
-/* Preços dos produtos nos cards */
+
 .custom-card .text-danger.fw-bolder.fs-4 {
-    color: #00BFFF !important; /* Preço de oferta em azul claro */
+    color: #00BFFF !important; 
 }
 
 .custom-card .text-success.fw-bolder.fs-4 {
-    color: #25D366 !important; /* Preço normal em verde (WhatsApp) */
+    color: #25D366 !important; 
 }
 
 
@@ -260,76 +259,75 @@ body {
     opacity: 0.9;
 }
 
-/* ---- Perguntas Frequentes (FAQ) ---- */
+
 #faq {
-    background-color: #131C2E; /* Cor de fundo escura, a mesma do seu header */
-    color: #E0E0E0; /* Define uma cor de texto padrão clara para a seção */
+    background-color: #131C2E; 
+    color: #E0E0E0; 
 }
 
 #faq h2 {
-    color: #00BFFF !important; /* Um azul claro para o título da FAQ */
-    border-color: #00BFFF !important; /* Borda inferior do título em azul claro */
+    color: #00BFFF !important; 
+    border-color: #00BFFF !important; 
 }
 
-/* Estilo do botão do acordeão (a "pergunta") */
-.accordion-button { /* Aplica a todos os botões do acordeão */
-    background-color: #252A3A !important; /* Um cinza azulado mais escuro */
-    color: #00BFFF !important; /* Cor do texto da pergunta em azul claro */
-    border: 1px solid #00BFFF !important; /* Borda da cor da pergunta */
-    border-radius: 8px !important; /* Arredonda as bordas do botão */
-    margin-bottom: 5px; /* Espaçamento entre os botões */
+/
+.accordion-button { 
+    background-color: #252A3A !important;
+    color: #00BFFF !important; 
+    border: 1px solid #00BFFF !important; 
+    border-radius: 8px !important; 
+    margin-bottom: 5px; 
 }
 
-/* Estilo do botão do acordeão quando ativo (aberto) */
+
 .accordion-button:not(.collapsed) {
-    background-color: #131C2E !important; /* Fundo mais escuro quando aberto */
-    color: #fff !important; /* Texto branco puro quando aberto */
-    box-shadow: 0 0 15px rgba(0, 191, 255, 0.3) !important; /* Brilho azul quando aberto */
+    background-color: #131C2E !important; 
+    color: #fff !important; 
+    box-shadow: 0 0 15px rgba(0, 191, 255, 0.3) !important;
 }
 
-/* Remove a seta padrão do Bootstrap e usa uma personalizada */
+
 .accordion-button::after {
-    filter: invert(100%) brightness(150%) sepia(1) hue-rotate(180deg) saturate(3); /* Ajusta a cor da seta para azul claro */
+    filter: invert(100%) brightness(150%) sepia(1) hue-rotate(180deg) saturate(3); 
 }
 
-/* Quando colapsado, a seta volta a ser clara */
+
 .accordion-button.collapsed::after {
     filter: invert(100%) brightness(150%) sepia(1) hue-rotate(180deg) saturate(3);
 }
 
 
-/* Cor do texto do corpo do acordeão (a "resposta") */
+
 .accordion-body {
-    background-color: #252A3A; /* Fundo das respostas, um pouco mais claro que o da seção */
-    color: #E0E0E0; /* Cor do texto das respostas em cinza claro */
-    border: 1px solid rgba(0, 191, 255, 0.3); /* Borda sutil */
-    border-top: none; /* Remove a borda superior para se juntar ao botão */
-    border-bottom-left-radius: 8px; /* Arredonda as bordas inferiores */
+    background-color: #252A3A; 
+    color: #E0E0E0;
+    border: 1px solid rgba(0, 191, 255, 0.3); 
+    border-top: none;
+    border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
-    padding-top: 15px; /* Espaçamento interno */
+    padding-top: 15px; 
 }
 
-/* Borda dos itens do acordeão */
+
 .custom-accordion-item {
-    border: none; /* A borda será definida pelos botões e corpo */
+    border: none;
     border-radius: 8px;
-    margin-bottom: 15px; /* Espaço entre os itens completos do acordeão */
-    overflow: hidden; /* Garante que as bordas arredondadas sejam aplicadas corretamente */
-}
+    margin-bottom: 15px;
+    overflow: hidden;
 
-/* Offcanvas do carrinho de compras */
+
 .offcanvas-header.bg-primary {
-    background-color: #131C2E !important; /* Cabeçalho do carrinho com a cor do header principal */
+    background-color: #131C2E !important; 
 }
 
-/* Preço total do carrinho no offcanvas */
+
 #carrinho-total {
-    color: #00BFFF !important; /* Total do carrinho em azul claro */
+    color: #00BFFF !important; 
 }
 
-/* Botão "Finalizar Compra" do offcanvas */
+
 #btn-finalizar-compra {
-    background-color: #25D366 !important; /* Verde do WhatsApp para finalizar compra */
+    background-color: #25D366 !important; 
     border-color: #25D366 !important;
     color: #fff !important;
 }
@@ -338,30 +336,30 @@ body {
     border-color: #1eaf53 !important;
 }
 
-/* Botão "Continuar Comprando" do offcanvas */
+
 .offcanvas-body .btn-outline-primary {
-    color: #00BFFF !important; /* Cor do texto do botão continuar comprando */
-    border-color: #00BFFF !important; /* Cor da borda do botão continuar comprando */
+    color: #00BFFF !important; 
+    border-color: #00BFFF !important;
 }
 .offcanvas-body .btn-outline-primary:hover {
     background-color: #00BFFF !important;
     color: #131C2E !important;
 }
 
-/* Modal de Checkout */
+
 .modal-header.bg-success {
-    background-color: #25D366 !important; /* Cabeçalho do modal de checkout em verde */
+    background-color: #25D366 !important; 
 }
 .modal-body .alert-info {
-    background-color: #252A3A !important; /* Fundo do alerta de total no checkout */
-    border-color: #00BFFF !important; /* Borda do alerta de total */
-    color: #E0E0E0 !important; /* Cor do texto do alerta */
+    background-color: #252A3A !important; 
+    border-color: #00BFFF !important; 
+    color: #E0E0E0 !important; 
 }
 #modal-checkout-total {
-    color: #00BFFF !important; /* Total a pagar no modal em azul claro */
+    color: #00BFFF !important; 
 }
 .modal-body .btn-success.fw-bold {
-    background-color: #25D366 !important; /* Botão "Confirmar Pedido" em verde */
+    background-color: #25D366 !important; 
     border-color: #25D366 !important;
 }
 .modal-body .btn-success.fw-bold:hover {
@@ -369,16 +367,16 @@ body {
     border-color: #1eaf53 !important;
 }
 
-/* Modal de Confirmação */
+
 .modal-content.bg-success-subtle {
-    background-color: rgba(37, 211, 102, 0.2) !important; /* Fundo suavemente verde para o modal de confirmação */
+    background-color: rgba(37, 211, 102, 0.2) !important; 
     border-color: #25D366 !important;
 }
 .modal-body .text-success {
-    color: #25D366 !important; /* Ícone e títulos em verde */
+    color: #25D366 !important; 
 }
 .modal-body .btn-success.mt-3 {
-    background-color: #25D366 !important; /* Botão "Fechar e Continuar" em verde */
+    background-color: #25D366 !important; 
     border-color: #25D366 !important;
 }
 .modal-body .btn-success.mt-3:hover {
@@ -386,8 +384,9 @@ body {
     border-color: #1eaf53 !important;
 }
 
-/* Footer */
+
 footer {
-    background-color: #131C2E !important; /* Cor do footer igual ao header */
+    background-color: #131C2E !important;
     color: #E0E0E0 !important;
+
 }
