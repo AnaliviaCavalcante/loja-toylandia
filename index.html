@@ -27,8 +27,6 @@
             </form>
 
             <div class="d-flex ms-3 flex-shrink-0">
-                
-      
                 <a href="#faq" class="btn custom-icon-circle me-2 custom-faq-icon" title="FAQ">
                     <i class="bi bi-question-circle-fill"></i>
                 </a>
@@ -291,19 +289,8 @@
                     </div>
                 </div>
             </div>
-
-        <section id="contato" class="py-5 custom-contact-bg">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-12 col-md-8 col-lg-6">
-                        
-                                </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </section>
-        
+
         <section id="faq" class="container py-5 custom-anchor-padding">
             <h2 class="text-center mb-4 fw-bolder">❓ Perguntas Frequentes</h2>
             
@@ -311,12 +298,12 @@
                 <div class="accordion-item shadow-sm mb-2 custom-accordion-item">
                     <h2 class="accordion-header">
                         <button class="accordion-button bg-primary text-white collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                            Qual o prazo de entrega padrão?
+                            Qual o prazo de entrega padrão e o valor do frete?
                         </button>
                     </h2>
                     <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                         <div class="accordion-body">
-                            Nosso prazo de entrega padrão é de 5 a 10 dias úteis.
+                            Nosso prazo de entrega padrão é de **5 a 10 dias úteis**, dependendo da sua região. O valor do frete é calculado automaticamente no carrinho com base no seu CEP.
                         </div>
                     </div>
                 </div>
@@ -329,7 +316,7 @@
                     </h2>
                     <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                         <div class="accordion-body">
-                            Aceitamos trocas em até 30 dias após a compra, desde que o produto esteja na embalagem original e sem sinais de uso. Devoluções por defeito de fabricação podem ser feitas em até 90 dias.
+                            Aceitamos trocas em até **30 dias** após a compra, desde que o produto esteja na embalagem original e sem sinais de uso. Devoluções por defeito de fabricação podem ser feitas em até 90 dias.
                         </div>
                     </div>
                 </div>
@@ -342,7 +329,7 @@
                     </h2>
                     <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                         <div class="accordion-body">
-                            Não, infelizmente nao disponibilizamos papel de presente para compras online.
+                            Sim, oferecemos! Durante o processo de checkout (simulação), você pode selecionar a opção de **embalagem para presente** por uma pequena taxa adicional.
                         </div>
                     </div>
                 </div>
@@ -355,7 +342,7 @@
                     </h2>
                     <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                         <div class="accordion-body">
-                            Aceitamos Cartão de Crédito, PIX e Boleto Bancário. Todas as transações são seguras.
+                            Aceitamos **Cartão de Crédito**, **PIX** e **Boleto Bancário** (pagamento simulado no checkout). Todas as transações são seguras.
                         </div>
                     </div>
                 </div>
@@ -368,7 +355,7 @@
                     </h2>
                     <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                         <div class="accordion-body">
-                            Sim, todos os brinquedos possuem a garantia legal de 90 dias contra defeitos de fabricação. 
+                            Sim, todos os brinquedos possuem a garantia legal de 90 dias contra defeitos de fabricação. Verifique a descrição do produto para garantias estendidas do fabricante.
                         </div>
                     </div>
                 </div>
@@ -410,11 +397,10 @@
                     <h4 id="carrinho-total" class="mb-0 text-danger fw-bolder">R$ 0,00</h4> 
                 </div>
                 <button 
-                   class="btn btn-success btn-lg w-100 fw-bold mb-2 custom-btn-zoom" 
-    id="btn-finalizar-compra"
-    disabled>
-    <i class="bi bi-check-circle-fill me-2"></i> Finalizar Compra
-
+                    class="btn btn-success btn-lg w-100 fw-bold mb-2 custom-btn-zoom" 
+                    id="btn-finalizar-compra"
+                    disabled>
+                    <i class="bi bi-check-circle-fill me-2"></i> Finalizar Compra
                 </button>
                 <button class="btn btn-outline-primary w-100" data-bs-dismiss="offcanvas">Continuar Comprando</button>
             </div>
@@ -429,7 +415,7 @@
                     <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <p class="lead text-center mb-4">Estamos quase lá! Preencha os dados abaixo para finalizar:</p>
+                    <p class="lead text-center mb-4">Estamos quase lá! Preencha os dados abaixo para simular a finalização:</p>
                     <form>
                         <div class="mb-3">
                             <label for="nomeCheckout" class="form-label">Nome Completo</label>
@@ -454,7 +440,7 @@
                         </div>
                         
                         <div class="d-grid gap-2">
-                            <button type="button" class="btn btn-success fw-bold mt-2" data-bs-toggle="modal" data-bs-target="#confirmacaoModal" data-bs-dismiss="modal">
+                             <button type="button" class="btn btn-success fw-bold mt-2" id="btn-confirmar-pedido">
                                 Confirmar Pedido 
                             </button>
                         </div>
@@ -469,7 +455,7 @@
             <div class="modal-content bg-success-subtle border-success border-3">
                 <div class="modal-body text-center p-5">
                     <i class="bi bi-patch-check-fill fs-1 text-success"></i>
-                    <h4 class="mt-3 fw-bold text-success">Compra realizada com Sucesso!</h4>
+                    <h4 class="mt-3 fw-bold text-success">Compra Simulada com Sucesso!</h4>
                     <p class="lead">Seu pedido foi processado e logo a diversão estará a caminho!</p>
                     <button type="button" class="btn btn-success mt-3 fw-bold" data-bs-dismiss="modal">Fechar e Continuar</button>
                 </div>
@@ -479,29 +465,28 @@
 
     <footer class="bg-dark text-white py-4 mt-5">
         <div class="container text-center">
-            <p class="mb-0">&copy; 2024 ToyLandia. A diversão começa aqui!</p>
+            <p>&copy; 2024 ToyLandia. A diversão começa aqui!</p>
             <div class="mt-3">
-            <a href="https://web.whatsapp.com/" target="_blank" class="text-white mx-2 fs-4" title="WhatsApp"><i class="bi bi-whatsapp"></i></a>
-            <a href="https://www.instagram.com" target="_blank" class="text-white mx-2 fs-4" title="Instagram"><i class="bi bi-instagram"></i></a>
-            <a href="https://www.facebook.com" target="_blank" class="text-white mx-2 fs-4" title="Facebook"><i class="bi bi-facebook"></i></a>
-        </div>
+                <a href="https://web.whatsapp.com/" target="_blank" class="text-white mx-2 fs-4" title="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+                <a href="https://www.instagram.com" target="_blank" class="text-white mx-2 fs-4" title="Instagram"><i class="bi bi-instagram"></i></a>
+                <a href="https://www.facebook.com" target="_blank" class="text-white mx-2 fs-4" title="Facebook"><i class="bi bi-facebook"></i></a>
+            </div>
         </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
     <script>
+        
         let itensCarrinho = {};
         let totalCarrinho = 0;
         let contador = 0;
-        
         const listaCarrinho = document.getElementById('carrinho-itens-lista');
         const carrinhoTotalDisplay = document.getElementById('carrinho-total');
         const contadorCarrinho = document.getElementById('contador-carrinho');
         const modalCheckoutTotal = document.getElementById('modal-checkout-total');
         const mensagemVazio = document.getElementById('carrinho-vazio-mensagem');
-        const btnFinalizar = document.getElementById('btn-finalizar-compra');
-
+        
         const mapCor = {
             'Kit Mega Construtor': 'success',
             'Super Carro de Corrida RC': 'danger',
@@ -525,12 +510,15 @@
         const calcularTotal = () => {
             totalCarrinho = Object.values(itensCarrinho).reduce((acc, item) => acc + (item.preco * item.quantidade), 0);
             contador = Object.values(itensCarrinho).reduce((acc, item) => acc + item.quantidade, 0);
-            
             carrinhoTotalDisplay.textContent = `R$ ${formatarPreco(totalCarrinho)}`;
             contadorCarrinho.textContent = contador;
             modalCheckoutTotal.textContent = `R$ ${formatarPreco(totalCarrinho)}`;
             
-            btnFinalizar.disabled = totalCarrinho === 0;
+            
+            const btnFinalizarDoCarrinho = document.getElementById('btn-finalizar-compra');
+            if (btnFinalizarDoCarrinho) {
+                btnFinalizarDoCarrinho.disabled = totalCarrinho === 0;
+            }
 
             if (mensagemVazio) {
                 mensagemVazio.style.display = totalCarrinho === 0 ? 'block' : 'none';
@@ -539,11 +527,9 @@
 
         const renderizarCarrinho = () => {
             listaCarrinho.innerHTML = ''; 
-            
             Object.keys(itensCarrinho).forEach(id => {
                 const item = itensCarrinho[id];
                 const cor = mapCor[item.nome] || 'secondary';
-
                 const itemHTML = document.createElement('div');
                 itemHTML.className = 'd-flex align-items-center border-bottom py-3 item-carrinho';
                 itemHTML.setAttribute('data-id', id);
@@ -564,7 +550,6 @@
                 `;
                 listaCarrinho.appendChild(itemHTML);
             });
-            
             calcularTotal();
         };
 
@@ -590,15 +575,12 @@
                 const nome = e.currentTarget.getAttribute('data-nome');
                 const preco = parseFloat(e.currentTarget.getAttribute('data-preco'));
                 const id = nome.replace(/\s/g, '_');
-                
                 if (itensCarrinho[id]) {
                     itensCarrinho[id].quantidade += 1;
                 } else {
                     itensCarrinho[id] = { nome, preco, quantidade: 1 };
                 }
-
                 renderizarCarrinho();
-                
                 const offcanvasElement = document.getElementById('carrinhoOffcanvas');
                 const offcanvas = new bootstrap.Offcanvas(offcanvasElement);
                 offcanvas.show();
@@ -608,9 +590,7 @@
         listaCarrinho.addEventListener('click', (e) => {
             const target = e.target.closest('button');
             if (!target) return;
-
             const id = target.getAttribute('data-id');
-
             if (target.classList.contains('btn-aumentar-qtd')) {
                 atualizarQuantidade(id, 1);
             } else if (target.classList.contains('btn-diminuir-qtd')) {
@@ -620,15 +600,36 @@
             }
         });
         
-        const checkoutModal = document.getElementById('checkoutModal');
-        checkoutModal.addEventListener('show.bs.modal', function () {
-            calcularTotal(); 
-        });
-
         document.addEventListener('DOMContentLoaded', renderizarCarrinho);
 
+        
+        const carrinhoOffcanvasEl = document.getElementById('carrinhoOffcanvas');
+        const checkoutModalEl = document.getElementById('checkoutModal');
+        const confirmacaoModalEl = document.getElementById('confirmacaoModal');
+        
+        const btnFinalizarDoCarrinho = document.getElementById('btn-finalizar-compra');
+        const btnConfirmarPedido = document.getElementById('btn-confirmar-pedido');
+
+        const carrinhoOffcanvas = new bootstrap.Offcanvas(carrinhoOffcanvasEl);
+        const checkoutModal = new bootstrap.Modal(checkoutModalEl);
+        const confirmacaoModal = new bootstrap.Modal(confirmacaoModalEl);
+
+        btnFinalizarDoCarrinho.addEventListener('click', function () {
+            carrinhoOffcanvas.hide();
+        });
+
+        carrinhoOffcanvasEl.addEventListener('hidden.bs.offcanvas', function () {
+            calcularTotal(); 
+            checkoutModal.show();
+        });
+
+        btnConfirmarPedido.addEventListener('click', function () {
+            checkoutModal.hide();
+        });
+
+        checkoutModalEl.addEventListener('hidden.bs.modal', function () {
+            confirmacaoModal.show();
+        });
     </script>
 </body>
-
 </html>
-
