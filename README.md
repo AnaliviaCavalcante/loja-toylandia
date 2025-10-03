@@ -12,12 +12,6 @@ Projeto de front-end de uma loja de brinquedos online fictícia, **desenvolvido 
 
 <br>
 
-## Visualização do Projeto
-
-*[DICA: Grave um GIF rápido mostrando o site, principalmente o efeito hover nos cards e o carrinho funcionando, e coloque aqui para impressionar! Você pode usar um programa como o ScreenToGif. Depois, é só arrastar o arquivo para cá.]*
-
-![Prévia do site ToyLandia](https://i.imgur.com/link-da-sua-imagem.png)
-
 ## ✨ Funcionalidades Principais
 
 * **Tema Escuro e Moderno:** Interface com design *dark mode* e uma paleta de cores vibrantes para uma experiência visual agradável.
