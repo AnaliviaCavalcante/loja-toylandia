@@ -4,7 +4,7 @@
 ![Linguagem](https://img.shields.io/badge/linguagem-HTML%2FCSS%2FJS-blue)
 ![Framework](https://img.shields.io/badge/framework-Bootstrap%205-purple)
 
-Projeto de front-end de uma loja de brinquedos online fictícia, **desenvolvido como um trabalho acadêmico**. O site apresenta uma interface moderna, responsiva e interativa, com foco na experiência do usuário e na implementação de um carrinho de compras dinâmico utilizando JavaScript puro (Vanilla JS).
+Projeto de front-end de uma loja de brinquedos online fictícia, **desenvolvido como um trabalho acadêmico**. O site apresenta uma interface moderna, responsiva e interativa, com foco na experiência do usuário.
 
 <br>
 
