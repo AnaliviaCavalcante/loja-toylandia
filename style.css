@@ -220,7 +220,7 @@ body {
     color: #25D366 !important; 
 }
 
-/* 🌟 Correção da descrição escura nos cards */
+
 .custom-card p,
 .custom-card .card-text,
 .custom-card span,
@@ -374,3 +374,4 @@ footer {
     background-color: #131C2E !important;
     color: #E0E0E0 !important;
 }
+
