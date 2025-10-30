@@ -6,7 +6,6 @@ body {
     background-image: url('img/escuro.png');
 }
 
-
 .custom-header-bg {
     background-color: #131C2E !important; 
     padding: 0;
@@ -17,15 +16,14 @@ body {
     font-family: Arial, sans-serif;
     letter-spacing: -2px;
     text-shadow: 
-        -1px -1px 0 #252A3A, 
+        -1px -1px 0 #6b7fc7, 
         1px 1px 0 #fffafa;
     color: white; 
     line-height: 1;
 }
 
-
 .custom-search-container input {
-    background-color: #252A3A !important; 
+    background-color: #172747 !important; 
     color: #fff !important;
     border-radius: 50px 0 0 50px !important; 
     border: none !important;
@@ -47,7 +45,6 @@ body {
 .custom-search-input::placeholder {
     color: rgba(255, 255, 255, 0.6) !important;
 }
-
 
 .custom-icon-circle {
     width: 45px;
@@ -99,7 +96,6 @@ body {
     border-color: #fff; 
 }
 
-
 .custom-ofertas-pill {
     background-color: #dc3545 !important; 
     color: #fff !important; 
@@ -119,7 +115,6 @@ body {
     50% { transform: scale(1.03); opacity: 0.9; box-shadow: 0 0 15px rgba(220, 53, 69, 1); }
     100% { transform: scale(1); opacity: 1; box-shadow: 0 0 5px rgba(220, 53, 69, 0.7); }
 }
-
 
 .custom-anchor-padding {
     padding-top: 130px !important; 
@@ -156,7 +151,6 @@ body {
     scrollbar-width: none;
 }
 
-
 .carousel-slide-1 {
     background: linear-gradient(90deg, #131C2E, #252A3A); 
 }
@@ -168,7 +162,6 @@ body {
     text-shadow: 2px 2px 4px rgb(31, 51, 224);
     color: #fff; 
 }
-
 
 .btn-carousel-1 {
     background-color: #00BFFF !important;
@@ -200,27 +193,24 @@ body {
     box-shadow: 0 4px 8px rgba(147, 51, 234, 0.4);
 }
 
-
 .custom-card {
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
     border-radius: 12px; 
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
     border: 3px solid transparent; 
     background-color: #252A3A;
-    color: #E0E0E0; 
+    color: #ffffff; /* <- deixado branco para texto geral */
 }
 
 .custom-card:hover {
     transform: translateY(-8px); 
-    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.5); 
+    box-shadow: 0 1rem 3rem rgba(255, 253, 253, 0.5); 
     border-color: #00BFFF; 
 }
 
-
 .custom-card .card-title {
-    color: #fff; 
+    color: #ffffff !important; 
 }
-
 
 .custom-card .text-danger.fw-bolder.fs-4 {
     color: #00BFFF !important; 
@@ -230,6 +220,15 @@ body {
     color: #25D366 !important; 
 }
 
+/* 🌟 Correção da descrição escura nos cards */
+.custom-card p,
+.custom-card .card-text,
+.custom-card span,
+.custom-card small,
+.custom-card .text-muted {
+    color: #f1f1f1 !important;
+    opacity: 1 !important;
+}
 
 .custom-badge-glow {
     box-shadow: 0 0 10px rgba(220, 53, 69, 0.8), 0 0 20px rgba(220, 53, 69, 0.5);
@@ -259,7 +258,6 @@ body {
     opacity: 0.9;
 }
 
-
 #faq {
     background-color: #131C2E; 
     color: #E0E0E0; 
@@ -278,18 +276,15 @@ body {
     margin-bottom: 5px; 
 }
 
-
 .accordion-button:not(.collapsed) {
     background-color: #131C2E !important; 
     color: #fff !important; 
     box-shadow: 0 0 15px rgba(0, 191, 255, 0.3) !important;
 }
 
-
 .accordion-button::after {
     filter: invert(100%) brightness(150%) sepia(1) hue-rotate(180deg) saturate(3); 
 }
-
 
 .accordion-button.collapsed::after {
     filter: invert(100%) brightness(150%) sepia(1) hue-rotate(180deg) saturate(3);
@@ -305,7 +300,6 @@ body {
     padding-top: 15px; 
 }
 
-
 .custom-accordion-item {
     border: none;
     border-radius: 8px;
@@ -317,11 +311,9 @@ body {
     background-color: #131C2E !important; 
 }
 
-
 #carrinho-total {
     color: #00BFFF !important; 
 }
-
 
 #btn-finalizar-compra {
     background-color: #25D366 !important; 
@@ -333,7 +325,6 @@ body {
     border-color: #1eaf53 !important;
 }
 
-
 .offcanvas-body .btn-outline-primary {
     color: #00BFFF !important; 
     border-color: #00BFFF !important;
@@ -342,7 +333,6 @@ body {
     background-color: #00BFFF !important;
     color: #131C2E !important;
 }
-
 
 .modal-header.bg-success {
     background-color: #25D366 !important; 
@@ -364,7 +354,6 @@ body {
     border-color: #1eaf53 !important;
 }
 
-
 .modal-content.bg-success-subtle {
     background-color: rgba(37, 211, 102, 0.2) !important; 
     border-color: #25D366 !important;
@@ -380,7 +369,6 @@ body {
     background-color: #1eaf53 !important;
     border-color: #1eaf53 !important;
 }
-
 
 footer {
     background-color: #131C2E !important;
